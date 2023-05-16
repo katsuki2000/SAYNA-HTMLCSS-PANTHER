@@ -55,4 +55,6 @@ main .display-contents .right-side{
 }
 main .display-contents .right-side  img{
     width: 100%;
+    opacity: 80%;
+    border: 50px  solid val(--secondcolor);
 }
