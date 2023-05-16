@@ -1,11 +1,11 @@
 @import url('./style.css');
 
-main .okoye-section{
+main #okoye-section{
     display: flex;
 
 }
 /* Design de la section Okoye */
-main .okoye-section .okoye-image{
+main #okoye-section .okoye-image{
     background-image: url('../assets/images/enigme/Pantherenigme1.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ main .okoye-section .okoye-image{
     height: 100vh;
 
 }
-main .okoye-section .okoye-text{
+main #okoye-section .okoye-text{
     width: 600px;
     text-align: justify;
     float: right;
@@ -23,10 +23,10 @@ main .okoye-section .okoye-text{
     margin-left: 300px;
 }
 
-main .okoye-section .okoye-text h2{
+main #okoye-section .okoye-text h2{
     font-size:  43px;
 }
-main .okoye-section .okoye-text p{
+main #okoye-section .okoye-text p{
     width: 350px;
     color: var(--whitecolor);
     font-family: 'cantarell';
@@ -40,7 +40,7 @@ main .okoye-section .okoye-text p{
     margin: 0 auto;
     margin-bottom: 20px;
 }
-main .okoye-section .okoye-text img{
+main #okoye-section .okoye-text img{
     position: relative;
     width: 600px;
     /* margin-left: -100px; */
