@@ -137,7 +137,7 @@ h2:not(footer .social-side h2){
   filter: sepia(100%) invert(100%) brightness(1000%);
 }
 
-/* Debut de la première section les propos de Black Panther */
+/* Debut de la première section Black Panther */
 main #panther-section{
   width: 100%;
   height: 90vh;
@@ -396,3 +396,80 @@ footer .sayna-footer{
 }
 
 
+*/Responsive design*/
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  header nav ul {
+    width: 60%;
+  }
+
+  #panther-section .black-panther {
+    width: 100%;
+  }
+
+  #panther-section .black-panther .black-panther-text p {
+    width: 100%;
+  }
+
+  #panther-section .personnage .card {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 0;
+  }
+
+  .container .tchalla-text,
+  .container .tchalla {
+    width: 100%;
+  }
+
+  .container .tchalla .front-face {
+    margin-top: 0;
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+
+  .container .tchalla .front-face .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .tchalla .tchalla-poster {
+    margin-top: 40%;
+  }
+
+  main .form-section .displayForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  header .header-icons {
+    margin: 10px 20px;
+  }
+
+  header nav ul {
+    width: 80%;
+  }
+
+  #panther-section .black-panther .black-panther-text p {
+    font-size: 10px;
+  }
+
+  #panther-section .personnage .card {
+    margin-top: 20px;
+  }
+
+  .container .tchalla-text p,
+  main .form-section .displayForm .formLogin p {
+    font-size: 10px;
+  }
+}
