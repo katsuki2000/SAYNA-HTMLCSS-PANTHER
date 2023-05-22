@@ -127,9 +127,8 @@ h2:not(footer .social-side h2){
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* margin-left: -10px */
 }
-.barre .vertical_min .social-media img{
+.barre .vertical-min .social-media img{
   margin-top: 21px;
   cursor: pointer;
 }
@@ -152,7 +151,7 @@ main #panther-section{
   margin-top: 2%;
   margin-left: 6%;
 }
-#panther-section .black-panther .black_panther-text{
+#panther-section .black-panther .black-panther-text{
   width: 90%;
   text-align: justify;
 }
@@ -182,14 +181,14 @@ main #panther-section{
   padding: 0px 10px;
 }
 #panther-section .card .personnage-text{
-  /* margin-top: -30px; */
   font-family: 'cantarell';
   text-align: justify;
   font-size: 12px;
   font-weight: normal;
   color: var(--whitecolor);
-
 }
+
+/*Design de la partie */
 #tchalla-section{
   margin: 0 auto;
 }
@@ -259,7 +258,7 @@ main #panther-section{
   font-family: 'cantarell';
   font-size: 16px;
 }
-/* Mise en Bold des elemements biographiques de Black Panther */
+/* Mise en Bold des elements biographiques de Black Panther */
 .container .tchalla .front-face .bio p .bold{
   font-weight: bold;
 }
@@ -355,9 +354,7 @@ footer .social-side{
   justify-content: space-between;
   display: flex;
 }
-footer .social-side div{
-  margin: 0 30px;
-}
+
 footer .social-side .icon-container{
   display: flex;
   padding: 0;
@@ -396,7 +393,6 @@ footer .sayna-footer{
 }
 
 
-/*Responsive design*/
 
 @media (max-width: 768px) {
   /* Styles for screens up to 768px wide */
@@ -448,6 +444,7 @@ footer .sayna-footer{
   main .form-section .displayForm {
     width: 80%;
   }
+
 }
 
 @media (max-width: 480px) {
@@ -473,3 +470,5 @@ footer .sayna-footer{
     font-size: 10px;
   }
 }
+
+
